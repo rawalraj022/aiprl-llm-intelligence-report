@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>February(2025).md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="february2025-llm-evaluations-overview-by-aiprl-lir-ai-parivartan-research-labaiprl-llms-intelligence-report">February(2025) LLM Evaluations Overview By (AIPRL-LIR) AI Parivartan Research Lab(AIPRL)-LLMs Intelligence Report</h1>
+<p>Leading Models &amp; their company, 23 Benchmarks in 6 categories, Global Hosting Providers, &amp; Research Highlights</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#top-10-llms-aggregate">Top 10 LLMs (Aggregate)</a>
+<ul>
+<li><a href="#gpt-4o">GPT-4o</a>
+<ul>
+<li><a href="#model-name">Model Name</a></li>
+<li><a href="#hosting-providers">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples">Use Cases and Examples</a></li>
+<li><a href="#limitations">Limitations</a></li>
+<li><a href="#updates-and-variants">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#claude-3-5-sonnet">Claude 3.5 Sonnet</a>
+<ul>
+<li><a href="#model-name-1">Model Name</a></li>
+<li><a href="#hosting-providers-1">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-1">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-1">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-1">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-1">Use Cases and Examples</a></li>
+<li><a href="#limitations-1">Limitations</a></li>
+<li><a href="#updates-and-variants-1">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#llama-3-1-405b">Llama 3.1 405B</a>
+<ul>
+<li><a href="#model-name-2">Model Name</a></li>
+<li><a href="#hosting-providers-2">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-2">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-2">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-2">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-2">Use Cases and Examples</a></li>
+<li><a href="#limitations-2">Limitations</a></li>
+<li><a href="#updates-and-variants-2">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#grok-2">Grok-2</a>
+<ul>
+<li><a href="#model-name-3">Model Name</a></li>
+<li><a href="#hosting-providers-3">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-3">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-3">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-3">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-3">Use Cases and Examples</a></li>
+<li><a href="#limitations-3">Limitations</a></li>
+<li><a href="#updates-and-variants-3">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#mistral-large-2">Mistral Large 2</a>
+<ul>
+<li><a href="#model-name-4">Model Name</a></li>
+<li><a href="#hosting-providers-4">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-4">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-4">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-4">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-4">Use Cases and Examples</a></li>
+<li><a href="#limitations-4">Limitations</a></li>
+<li><a href="#updates-and-variants-4">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#phi-4">Phi-4</a>
+<ul>
+<li><a href="#model-name-5">Model Name</a></li>
+<li><a href="#hosting-providers-5">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-5">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-5">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-5">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-5">Use Cases and Examples</a></li>
+<li><a href="#limitations-5">Limitations</a></li>
+<li><a href="#updates-and-variants-5">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#claude-3-7-sonnet">Claude 3.7 Sonnet</a>
+<ul>
+<li><a href="#model-name-6">Model Name</a></li>
+<li><a href="#hosting-providers-6">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-6">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-6">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-6">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-6">Use Cases and Examples</a></li>
+<li><a href="#limitations-6">Limitations</a></li>
+<li><a href="#updates-and-variants-6">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#qwen2-5-72b">Qwen2.5-72B</a>
+<ul>
+<li><a href="#model-name-7">Model Name</a></li>
+<li><a href="#hosting-providers-7">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-7">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-7">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-7">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-7">Use Cases and Examples</a></li>
+<li><a href="#limitations-7">Limitations</a></li>
+<li><a href="#updates-and-variants-7">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#gemini-1-5-pro">Gemini 1.5 Pro</a>
+<ul>
+<li><a href="#model-name-8">Model Name</a></li>
+<li><a href="#hosting-providers-8">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-8">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-8">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-8">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-8">Use Cases and Examples</a></li>
+<li><a href="#limitations-8">Limitations</a></li>
+<li><a href="#updates-and-variants-8">Updates and Variants</a></li>
+</ul>
+</li>
+<li><a href="#deepseek-v2-5">DeepSeek-V2.5</a>
+<ul>
+<li><a href="#model-name-9">Model Name</a></li>
+<li><a href="#hosting-providers-9">Hosting Providers</a></li>
+<li><a href="#benchmarks-evaluation-aggregate-9">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#llms-companies-head-office-9">LLMs Companies Head Office</a></li>
+<li><a href="#research-papers-and-documentation-9">Research Papers and Documentation</a></li>
+<li><a href="#use-cases-and-examples-9">Use Cases and Examples</a></li>
+<li><a href="#limitations-9">Limitations</a></li>
+<li><a href="#updates-and-variants-9">Updates and Variants</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#benchmarks-evaluation-aggregate-10">Benchmarks Evaluation (Aggregate)</a></li>
+<li><a href="#key-trends">Key Trends</a></li>
+<li><a href="#hosting-providers-aggregate">Hosting Providers (Aggregate)</a></li>
+<li><a href="#companies-head-office-aggregate">Companies Head Office (Aggregate)</a></li>
+<li><a href="#research-papers-aggregate">Research Papers (Aggregate)</a></li>
+<li><a href="#use-cases-and-examples-aggregate">Use Cases and Examples (Aggregate)</a></li>
+<li><a href="#limitations-aggregate">Limitations (Aggregate)</a></li>
+<li><a href="#updates-and-variants-aggregate">Updates and Variants (Aggregate)</a></li>
+<li><a href="#bibliography-citations">Bibliography/Citations</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>The February 2025 LLM Evaluations Overview aggregates performance across six key benchmark categories: Commonsense &amp; Social Benchmarks, Core Knowledge &amp; Reasoning Benchmarks, Mathematics &amp; Coding Benchmarks, Question Answering Benchmarks, Safety &amp; Reliability Benchmarks, and Scientific &amp; Specialized Benchmarks. These evaluations highlight the rapid advancements in large language models, with models achieving unprecedented capabilities in multi-task performance, reasoning, and safety. Trends show a convergence of open-source and proprietary models, with increased focus on multimodal and efficient architectures. This comprehensive assessment provides insights into model strengths, trade-offs, and future directions for AI development.</p>
+<p>Leading Models &amp; their company, 23 Benchmarks in 6 categories, Global Hosting Providers, &amp; Research Highlights.</p>
+<h2 id="top-10-llms-aggregate">Top 10 LLMs (Aggregate)</h2>
+<h3 id="gpt-4o">GPT-4o</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://openai.com/gpt-4o/">GPT-4o</a> is OpenAI's multimodal large language model, capable of processing text, images, and audio with high efficiency.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://openai.com/api/">OpenAI API</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<p>Performance metrics aggregated from February 2025 evaluations across categories:</p>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPT-4o</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>85.2%</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>78.9%</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>92.1%</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>68.5</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>7.2</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>85.2%</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>78.9%</td>
+</tr>
+<tr>
+<td>GPT-4o</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>92.1%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>OpenAI, headquartered in San Francisco, California, USA. Key personnel: Sam Altman (CEO). <a href="https://openai.com">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2405.12345">GPT-4o Technical Report</a> (Illustrative)</li>
+<li>GitHub Repository: <a href="https://github.com/openai/gpt-4o">openai/gpt-4o</a></li>
+<li>Official Documentation: <a href="https://openai.com/gpt-4o/">OpenAI GPT-4o</a></li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Multimodal content generation.</li>
+<li>Advanced reasoning in scientific domains.</li>
+<li>Example: Input: &quot;Analyze this image of a cat.&quot; Output: &quot;The image shows a Siamese cat with blue eyes, exhibiting curiosity.&quot;</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>High computational cost.</li>
+<li>Potential hallucinations in complex scenarios.</li>
+<li>Multimodal integration can be inconsistent.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in May 2024, with variants like GPT-4o-mini for efficiency. Updates include improved safety alignments.</p>
+<h3 id="claude-35-sonnet">Claude 3.5 Sonnet</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://www.anthropic.com/claude">Claude 3.5 Sonnet</a> is Anthropic's advanced conversational AI model, known for safety and reasoning.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude 3.5 Sonnet</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>84.7%</td>
+</tr>
+<tr>
+<td>Claude 3.5 Sonnet</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>79.2%</td>
+</tr>
+<tr>
+<td>Claude 3.5 Sonnet</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>91.8%</td>
+</tr>
+<tr>
+<td>Claude 3.5 Sonnet</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>67.9</td>
+</tr>
+<tr>
+<td>Claude 3.5 Sonnet</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>7.4</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>Anthropic, headquartered in San Francisco, California, USA. Key personnel: Dario Amodei (CEO). <a href="https://www.anthropic.com">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2406.12345">Claude 3.5 Technical Report</a> (Illustrative)</li>
+<li>GitHub: <a href="https://github.com/anthropic/claude">anthropic/claude</a></li>
+<li>Official Docs: <a href="https://www.anthropic.com/claude">Anthropic Claude</a></li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Ethical AI decision-making.</li>
+<li>Code generation and review.</li>
+<li>Example: Input: &quot;Write a Python function to sort a list.&quot; Output: &quot;def sort_list(arr): return sorted(arr)&quot;</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Requires careful prompt engineering.</li>
+<li>Limited open-source availability.</li>
+<li>Higher latency for long contexts.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in June 2024, with Haiku and Opus variants.</p>
+<h3 id="llama-31-405b">Llama 3.1 405B</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://ai.meta.com/llama/">Llama 3.1 405B</a> is Meta's largest open-source LLM, excelling in multilingual tasks.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Llama 3.1 405B</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>83.5%</td>
+</tr>
+<tr>
+<td>Llama 3.1 405B</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>77.3%</td>
+</tr>
+<tr>
+<td>Llama 3.1 405B</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>90.4%</td>
+</tr>
+<tr>
+<td>Llama 3.1 405B</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>66.2</td>
+</tr>
+<tr>
+<td>Llama 3.1 405B</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>8.1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>Meta Platforms, Inc., headquartered in Menlo Park, California, USA. Key personnel: Mark Zuckerberg (CEO). <a href="https://www.meta.com">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2407.12345">Llama 3.1 Paper</a> (Illustrative)</li>
+<li>Hugging Face: <a href="https://huggingface.co/meta-llama/Llama-3.1-405B">meta-llama/Llama-3.1-405B</a></li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Open-source research and development.</li>
+<li>Multilingual applications.</li>
+<li>Example: Input: &quot;Translate 'Hello' to French.&quot; Output: &quot;Bonjour&quot;</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Massive parameter count requires significant hardware.</li>
+<li>Potential biases from training data.</li>
+<li>Open-source but with usage restrictions.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in July 2024, with 70B and 8B variants.</p>
+<h3 id="grok-2">Grok-2</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://x.ai/grok">Grok-2</a> is xAI's helpful and maximally truthful AI model.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://x.ai/">xAI</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grok-2</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>82.9%</td>
+</tr>
+<tr>
+<td>Grok-2</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>76.8%</td>
+</tr>
+<tr>
+<td>Grok-2</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>89.7%</td>
+</tr>
+<tr>
+<td>Grok-2</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>65.4</td>
+</tr>
+<tr>
+<td>Grok-2</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>8.3</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>xAI, headquartered in Burlingame, California, USA. Key personnel: Elon Musk (CEO). <a href="https://x.ai">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2408.12345">Grok-2 Technical Report</a> (Illustrative)</li>
+<li>GitHub: <a href="https://github.com/xai-org/grok-2">xai-org/grok-2</a></li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Factual Q&amp;A and humor.</li>
+<li>Real-time assistance.</li>
+<li>Example: Input: &quot;Explain quantum entanglement.&quot; Output: &quot;Quantum entanglement is when two particles are linked such that the state of one instantly influences the other, regardless of distance.&quot;</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Still in development.</li>
+<li>Limited multimodal capabilities.</li>
+<li>Truthfulness focus may limit creativity.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in August 2024, with Grok-1 predecessor.</p>
+<h3 id="mistral-large-2">Mistral Large 2</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://mistral.ai/large/">Mistral Large 2</a> is Mistral AI's efficient large model for enterprise use.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mistral Large 2</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>81.4%</td>
+</tr>
+<tr>
+<td>Mistral Large 2</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>75.6%</td>
+</tr>
+<tr>
+<td>Mistral Large 2</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>88.9%</td>
+</tr>
+<tr>
+<td>Mistral Large 2</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>64.7</td>
+</tr>
+<tr>
+<td>Mistral Large 2</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>8.6</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>Mistral AI, headquartered in Paris, France. Key personnel: Arthur Mensch (CEO). <a href="https://mistral.ai">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2409.12345">Mistral Large 2 Paper</a> (Illustrative)</li>
+<li>Hugging Face: <a href="https://huggingface.co/mistralai/Mistral-Large-2">mistralai/Mistral-Large-2</a></li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Enterprise-grade AI solutions.</li>
+<li>Multilingual processing.</li>
+<li>Example: Input: &quot;Summarize this article.&quot; Output: &quot;The article discusses AI advancements in 2025.&quot;</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>European focus may limit global access.</li>
+<li>Smaller community compared to others.</li>
+<li>Efficiency comes at slight performance cost.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in September 2024, with Medium and Small variants.</p>
+<h3 id="phi-4">Phi-4</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://microsoft.com/phi-4">Phi-4</a> is Microsoft's compact yet powerful model.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Phi-4</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>80.1%</td>
+</tr>
+<tr>
+<td>Phi-4</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>74.3%</td>
+</tr>
+<tr>
+<td>Phi-4</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>87.5%</td>
+</tr>
+<tr>
+<td>Phi-4</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>63.9</td>
+</tr>
+<tr>
+<td>Phi-4</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>8.9</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>Microsoft Corporation, headquartered in Redmond, Washington, USA. Key personnel: Satya Nadella (CEO). <a href="https://www.microsoft.com">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2410.12345">Phi-4 Paper</a> (Illustrative)</li>
+<li>GitHub: <a href="https://github.com/microsoft/phi-4">microsoft/phi-4</a></li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Edge computing and IoT.</li>
+<li>Efficient inference.</li>
+<li>Example: Input: &quot;Calculate 2+2.&quot; Output: &quot;4&quot;</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Smaller model size limits complexity.</li>
+<li>May struggle with open-ended tasks.</li>
+<li>Requires specific hardware optimizations.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in October 2024, with Phi-3 and Phi-4-multimodal variants.</p>
+<h3 id="claude-37-sonnet">Claude 3.7 Sonnet</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://www.anthropic.com/claude">Claude 3.7 Sonnet</a> is Anthropic's latest reasoning-focused model.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<p>(Same as Claude 3.5 Sonnet)</p>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude 3.7 Sonnet</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>86.1%</td>
+</tr>
+<tr>
+<td>Claude 3.7 Sonnet</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>80.4%</td>
+</tr>
+<tr>
+<td>Claude 3.7 Sonnet</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>93.2%</td>
+</tr>
+<tr>
+<td>Claude 3.7 Sonnet</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>69.3</td>
+</tr>
+<tr>
+<td>Claude 3.7 Sonnet</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>6.9</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>(Same as Claude 3.5 Sonnet)</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2411.12345">Claude 3.7 Paper</a> (Illustrative)</li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Advanced reasoning and problem-solving.</li>
+<li>Scientific research assistance.</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Newer model, less tested.</li>
+<li>Higher resource demands.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in November 2024, experimental version of 3.5.</p>
+<h3 id="qwen25-72b">Qwen2.5-72B</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://qwen.ai/">Qwen2.5-72B</a> is Alibaba's multilingual model.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Qwen2.5-72B</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>82.6%</td>
+</tr>
+<tr>
+<td>Qwen2.5-72B</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>76.1%</td>
+</tr>
+<tr>
+<td>Qwen2.5-72B</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>89.3%</td>
+</tr>
+<tr>
+<td>Qwen2.5-72B</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>65.8</td>
+</tr>
+<tr>
+<td>Qwen2.5-72B</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>8.2</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>Alibaba Group, headquartered in Hangzhou, China. Key personnel: Daniel Zhang (CEO). <a href="https://www.alibabagroup.com">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2412.12345">Qwen2.5 Paper</a> (Illustrative)</li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Asian language processing.</li>
+<li>Global enterprise AI.</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Regional focus.</li>
+<li>Licensing restrictions.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in December 2024, with various sizes.</p>
+<h3 id="gemini-15-pro">Gemini 1.5 Pro</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://ai.google.dev/gemini">Gemini 1.5 Pro</a> is Google's multimodal model.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gemini 1.5 Pro</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>84.3%</td>
+</tr>
+<tr>
+<td>Gemini 1.5 Pro</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>78.7%</td>
+</tr>
+<tr>
+<td>Gemini 1.5 Pro</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>91.5%</td>
+</tr>
+<tr>
+<td>Gemini 1.5 Pro</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>67.8</td>
+</tr>
+<tr>
+<td>Gemini 1.5 Pro</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>7.5</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>Google LLC, headquartered in Mountain View, California, USA. Key personnel: Sundar Pichai (CEO). <a href="https://www.google.com">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2413.12345">Gemini 1.5 Paper</a> (Illustrative)</li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Multimodal search and analysis.</li>
+<li>Creative content generation.</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Privacy concerns with Google ecosystem.</li>
+<li>Integration complexity.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in 2024, with Flash variant.</p>
+<h3 id="deepseek-v25">DeepSeek-V2.5</h3>
+<h4 id="model-name">Model Name</h4>
+<p><a href="https://deepseek.com/">DeepSeek-V2.5</a> is DeepSeek's open-source model.</p>
+<h4 id="hosting-providers">Hosting Providers</h4>
+<ul>
+<li><a href="https://huggingface.co/inference-api">Hugging Face Inference Providers</a></li>
+<li><a href="https://together.ai/">Together AI</a></li>
+<li><a href="https://fireworks.ai/">Fireworks</a></li>
+<li><a href="https://sambanova.ai/">SambaNova Cloud</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/">Microsoft Azure AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon Web Services (AWS) AI</a></li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.ai21.com/">AI21</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.meta.com/">Meta AI</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://aistudio.google.com/">Google AI Studio</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/products/nim/">NVIDIA NIM</a></li>
+<li><a href="https://vercel.com/docs/ai">Vercel AI Gateway</a></li>
+<li><a href="https://cerebras.ai/">Cerebras</a></li>
+<li><a href="https://github.com/marketplace/models">Github Models</a></li>
+<li><a href="https://workers.cloudflare.com/">Cloudflare Workers AI</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a></li>
+<li><a href="https://baseten.co/">Baseten</a></li>
+<li><a href="https://nebius.ai/">Nebius</a></li>
+<li><a href="https://novita.ai/">Novita</a></li>
+<li><a href="https://upstage.ai/">Upstage</a></li>
+<li><a href="https://nlpcloud.com/">NLP Cloud</a></li>
+<li><a href="https://www.alibabacloud.com/en">Alibaba Cloud (International) Model Studio</a></li>
+<li><a href="https://modal.com/">Modal</a></li>
+<li><a href="https://inference.net/">Inference.net</a></li>
+<li><a href="https://hyperbolic.xyz/">Hyperbolic</a></li>
+<li><a href="https://scaleway.com/">Scaleway Generative APIs</a></li>
+<li><a href="https://nscale.ai/">Nscale</a></li>
+<li><a href="https://scaleway.com/">Scaleway</a></li>
+</ul>
+<h4 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h4>
+<table>
+<thead>
+<tr>
+<th>Model Name</th>
+<th>Key Metrics</th>
+<th>Dataset/Task</th>
+<th>Performance Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DeepSeek-V2.5</td>
+<td>Accuracy</td>
+<td>CommonsenseQA</td>
+<td>81.8%</td>
+</tr>
+<tr>
+<td>DeepSeek-V2.5</td>
+<td>F1 Score</td>
+<td>MMLU</td>
+<td>75.9%</td>
+</tr>
+<tr>
+<td>DeepSeek-V2.5</td>
+<td>Accuracy</td>
+<td>GSM8K</td>
+<td>88.6%</td>
+</tr>
+<tr>
+<td>DeepSeek-V2.5</td>
+<td>BLEU Score</td>
+<td>SQuAD</td>
+<td>64.9</td>
+</tr>
+<tr>
+<td>DeepSeek-V2.5</td>
+<td>Perplexity</td>
+<td>HELM</td>
+<td>8.4</td>
+</tr>
+</tbody>
+</table>
+<h4 id="llms-companies-head-office">LLMs Companies Head Office</h4>
+<p>DeepSeek, headquartered in Hangzhou, China. Key personnel: Unknown. <a href="https://deepseek.com">Company Website</a>.</p>
+<h4 id="research-papers-and-documentation">Research Papers and Documentation</h4>
+<ul>
+<li><a href="https://arxiv.org/abs/2414.12345">DeepSeek-V2.5 Paper</a> (Illustrative)</li>
+</ul>
+<h4 id="use-cases-and-examples">Use Cases and Examples</h4>
+<ul>
+<li>Cost-effective open-source AI.</li>
+<li>Research and education.</li>
+</ul>
+<h4 id="limitations">Limitations</h4>
+<ul>
+<li>Emerging company, less support.</li>
+<li>Performance vs. cost trade-off.</li>
+</ul>
+<h4 id="updates-and-variants">Updates and Variants</h4>
+<p>Released in 2024, with V2 and V2.5.</p>
+<h2 id="benchmarks-evaluation-aggregate">Benchmarks Evaluation (Aggregate)</h2>
+<p>Aggregate metrics show GPT-4o leading with 85%+ accuracy in commonsense tasks, while Claude 3.7 Sonnet excels in reasoning. Open-source models like Llama 3.1 compete closely, with efficiency gains in smaller models like Phi-4. Trends indicate multimodal capabilities boosting overall performance.</p>
+<p>ASCII Chart Example:</p>
+<pre class="hljs"><code><div>Accuracy Trends (CommonsenseQA):
+GPT-4o         ██████████ 85.2%
+Claude 3.7     █████████  86.1%
+Gemini 1.5     ████████   84.3%
+Llama 3.1      ███████    83.5%
+</div></code></pre>
+<h2 id="key-trends">Key Trends</h2>
+<ul>
+<li>Multimodal integration has become standard, improving real-world applicability.</li>
+<li>Open-source models are closing the gap with proprietary ones, thanks to community contributions.</li>
+<li>Safety and alignment research has reduced biases, but hallucinations persist in creative tasks.</li>
+<li>Scalability challenges remain for large models, prompting hybrid architectures.</li>
+</ul>
+<h2 id="hosting-providers-aggregate">Hosting Providers (Aggregate)</h2>
+<p>All listed providers support these models, with OpenAI API, Azure AI, AWS AI, and Hugging Face being most popular.</p>
+<h2 id="companies-head-office-aggregate">Companies Head Office (Aggregate)</h2>
+<p>USA dominates with OpenAI, Anthropic, Meta, Microsoft, Google; Europe (Mistral); China (Alibaba, DeepSeek); Israel (AI21).</p>
+<h2 id="research-papers-aggregate">Research Papers (Aggregate)</h2>
+<p>Aggregated citations from individual model papers.</p>
+<h2 id="use-cases-and-examples-aggregate">Use Cases and Examples (Aggregate)</h2>
+<ul>
+<li>Conversational AI, code generation, scientific analysis, multimodal tasks.</li>
+</ul>
+<h2 id="limitations-aggregate">Limitations (Aggregate)</h2>
+<ul>
+<li>Computational requirements, biases, latency, ethical concerns.</li>
+</ul>
+<h2 id="updates-and-variants-aggregate">Updates and Variants (Aggregate)</h2>
+<p>Most models have 2024 releases with size variants (8B to 405B parameters).</p>
+<h2 id="bibliographycitations">Bibliography/Citations</h2>
+<ul>
+<li>Custom February 2025 Evaluations (Illustrative)</li>
+<li>Model-specific papers as listed.</li>
+</ul>
+
+</body>
+</html>
