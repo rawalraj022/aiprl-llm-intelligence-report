@@ -72,12 +72,13 @@ ls -la 2025_AD_Top_LLM_Benchmark_Evaluations/ | tail -5
 ```
 
 #### 📊 Developer Decision Framework
-| Use Case | Recommended Report Section | Key Metrics to Check |
-|----------|---------------------------|---------------------|
-| **API Selection** | Hosting Providers | Latency, Throughput, Cost |
-| **Model Comparison** | Top 10 LLMs Analysis | Performance vs Cost Ratio |
-| **Safety Requirements** | Safety & Reliability | Alignment Scores, Bias Metrics |
-| **Technical Integration** | Mathematics & Coding | Code Generation, API Compatibility |
+
+| Use Case | Recommended Report Section | Key Metrics to Check | Business Impact |
+|----------|---------------------------|---------------------|-----------------|
+| **API Selection** | Hosting Providers | Latency, Throughput, Cost | Development velocity |
+| **Model Comparison** | Top 10 LLMs Analysis | Performance vs Cost Ratio | Budget optimization |
+| **Safety Requirements** | Safety & Reliability | Alignment Scores, Bias Metrics | Risk mitigation |
+| **Technical Integration** | Mathematics & Coding | Code Generation, API Compatibility | Time-to-market |
 
 #### 🛠️ Engineering Implementation Guide
 
@@ -102,12 +103,12 @@ ls -la 2025_AD_Top_LLM_Benchmark_Evaluations/ | tail -5
 
 #### 🎯 Key Business Value Propositions
 
-| Business Need | Report Value | ROI Impact |
-|---------------|--------------|------------|
-| **Technology Investment** | Data-driven vendor selection | Reduce implementation costs by 30% |
-| **Risk Management** | Safety and reliability metrics | Minimize compliance and ethical risks |
-| **Competitive Intelligence** | Market trend analysis | Strategic positioning advantages |
-| **Resource Optimization** | Performance-cost analysis | Maximize ROI on AI investments |
+| Business Need | Report Value | ROI Impact | Time to Value |
+|---------------|--------------|------------|---------------|
+| **Technology Investment** | Data-driven vendor selection | Reduce implementation costs by 30% | 2-4 weeks |
+| **Risk Management** | Safety and reliability metrics | Minimize compliance and ethical risks | Immediate |
+| **Competitive Intelligence** | Market trend analysis | Strategic positioning advantages | 1-2 months |
+| **Resource Optimization** | Performance-cost analysis | Maximize ROI on AI investments | 1-3 months |
 
 #### 📈 Business Intelligence Quick Wins
 
@@ -325,13 +326,13 @@ def select_optimal_model(requirements):
 
 #### 🏗️ Engineering Use Cases
 
-| Scenario | Recommended Approach | Expected Benefits |
-|----------|---------------------|-------------------|
-| **Chatbot Development** | Compare conversational benchmarks | 40% improvement in user satisfaction |
-| **Code Generation** | Mathematics & Coding analysis | 60% reduction in development time |
-| **Content Moderation** | Safety & Reliability metrics | 80% decrease in false positives |
-| **Research Automation** | Scientific benchmark review | 50% faster literature analysis |
-| **Data Analysis** | Core Knowledge evaluation | 35% more accurate insights |
+| Scenario | Recommended Approach | Expected Benefits | Implementation Time | Risk Level |
+|----------|---------------------|-------------------|-------------------|------------|
+| **Chatbot Development** | Compare conversational benchmarks | 40% improvement in user satisfaction | 2-4 weeks | Low |
+| **Code Generation** | Mathematics & Coding analysis | 60% reduction in development time | 1-2 weeks | Low |
+| **Content Moderation** | Safety & Reliability metrics | 80% decrease in false positives | 3-6 weeks | Medium |
+| **Research Automation** | Scientific benchmark review | 50% faster literature analysis | 4-8 weeks | Medium |
+| **Data Analysis** | Core Knowledge evaluation | 35% more accurate insights | 2-3 weeks | Low |
 
 ### 💼 For Business Leaders & Decision Makers
 
@@ -645,7 +646,7 @@ If you use this framework in your research or educational materials, please cite
   author={Rajkumar Rawal},
   year={2025},
   publisher={AI Parivartan Research Lab},
-  url={[text](https://github.com/rawalraj022/aiprl-llm-intelligence-report)}
+  url={https://github.com/rawalraj022/aiprl-llm-intelligence-report}
 }
 ```
 
