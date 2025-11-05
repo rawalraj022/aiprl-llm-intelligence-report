@@ -1,13 +1,13 @@
 <div align="center">
 
-# 🌍 (AIPRL-LIR) AI Parivartan Research Lab - LLMs Intelligence Report
+# 🌍 (AIPRL-LIR) AI Parivartan Research Lab - LLMs Intelligence Reports
 ### *Leading Models & Companies, 23 Benchmarks in 6 Categories, Global Hosting Providers, & Research Highlights*
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Monthly Reports](https://img.shields.io/badge/Reports-Monthly-green.svg)]()
 [![AI Research](https://img.shields.io/badge/AI-Research-purple.svg)]()
 
-**Monthly Intelligence Reports for AI Decision Makers**
+**Monthly LLM's Intelligence Reports for AI Decision Makers**
 
 [👨‍💻 Developers](#-for-developers) • [💼 Business](#-for-business-leaders) • [🎓 Research](#-for-researchers) • [📊 Reports](#-repository-structure)
 
@@ -47,6 +47,7 @@
 - [⚡ Quick Start](#-quick-start)
 - [📊 Repository Structure](#-repository-structure)
 - [🎯 Key Features](#-key-features)
+- [🎯 (AIPRL-LIR) Framework Overview: Step-by-Step Methodology](#-aiprl-lir-framework-overview-step-by-step-methodology)
 - [🚀 Practical Applications & Business Value](#-practical-applications--business-value)
 - [📖 How to Read the Reports](#-how-to-read-the-reports)
 - [🛠️ How to Add Monthly Reports](#️-how-to-add-monthly-reports)
@@ -598,7 +599,7 @@ This repository establishes a comprehensive framework for Large Language Model e
 ### 🏆 **Framework Innovation**
 
 **📊 Systematic AI Evaluation**
-- Structured monthly analysis framework since January 2025
+- Structured monthly analysis framework since 2025
 - Establishing standards for comprehensive model intelligence reporting
 - Setting benchmarks for systematic AI evaluation methodologies
 
@@ -650,7 +651,7 @@ This repository establishes a comprehensive framework for Large Language Model e
 ### 🏆 **Framework Recognition & Innovation**
 
 **📊 Established Monthly AI Intelligence Publication**
-- Consistent monthly analysis framework since January 2025
+- Consistent monthly analysis framework since 2025
 - Structured standards for AI evaluation reporting
 - Comprehensive model intelligence methodology
 
