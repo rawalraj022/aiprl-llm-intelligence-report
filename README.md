@@ -645,7 +645,7 @@ If you use this framework in your research or educational materials, please cite
   author={Rajkumar Rawal},
   year={2025},
   publisher={AI Parivartan Research Lab},
-  url={https://github.com/rajkumarrawal/aiprl-llm-intelligence-report}
+  url={[text](https://github.com/rawalraj022/aiprl-llm-intelligence-report)}
 }
 ```
 
