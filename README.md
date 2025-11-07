@@ -883,7 +883,7 @@ If you use this framework in your research or educational materials, please cite
   author={Rajkumar Rawal},
   year={2025},
   publisher={AI Parivartan Research Lab (AIPRL-LIR)},
-  url={https://github.com/rajkumarrawal/aiprl-llm-intelligence-report}
+  url={https://github.com/rawalraj022/aiprl-llm-intelligence-report}
 }
 ```
 
