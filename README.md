@@ -523,12 +523,12 @@ Current Manual Process Cost: $X
 AI Implementation Cost: $Y
 Expected Efficiency Gain: Z%
 
-Annual Savings = X × Z% = $A
+Annual Savings = X × Z% = A
 Annual AI Cost = Y
-Net Annual Benefit = A - Y = $B
+Net Annual Benefit = A - Y = B
 
 ROI = (B ÷ Y) × 100%
-Payback Period = Y ÷ B months
+Payback Period = (Y ÷ B) * 12 months
 ```
 
 **Sample ROI Calculations:**
